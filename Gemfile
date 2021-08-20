@@ -40,3 +40,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'jsonapi-resources'
+gem 'rswag'
+gem 'rspec-rails'
+group :development, :test do
+  gem 'rswag-specs'
+end
